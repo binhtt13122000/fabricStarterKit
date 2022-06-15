@@ -1,9 +1,8 @@
 {
-  "name": "starter",
+  "name": "cs02",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "fabric-chaincode-node start"
@@ -11,9 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.7.3"
-  },
   "dependencies": {
     "fabric-contract-api": "^2.2.1",
     "fabric-shim": "^2.2.1"
