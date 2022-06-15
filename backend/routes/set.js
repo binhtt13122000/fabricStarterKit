@@ -15,14 +15,14 @@ const _ = require('lodash');
       return {r:'Failed to submit transaction: no valid set'};
     }
 
-    let desc = _.get(req,'body.desc','');
-    let amount = _.get(req,'body.amount','');
-    let price = _.get(req,'body.price','');
+    let type = _.get(req,'body.type','');
+    let content = _.get(req,'body.content','');
+    let date = _.get(req,'body.date','');
    
     //  Set the keys to lowercase, because of the chaincode.
     no = no.toString().toLowerCase();
     
-    let value = {'no':no, 'desc':desc, 'amount':amount, 'price':price};
+    let value = {'no':no, 'content':content, 'date':date, 'type':type};
     value = JSON.stringify(value);
     try {
         /* 
