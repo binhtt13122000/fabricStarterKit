@@ -15,7 +15,7 @@ const fixtures = path.resolve(__dirname, '../../network/organizations/peerOrgani
 let config = {
   pathToUser:'/org1.example.com/users/User1@org1.example.com',
   pathToUserSignCert: '/msp/signcerts/cert.pem',
-  pathToUserPrivKey: '/msp/keystore/priv_sk',
+  pathToUserPrivKey: '/msp/keystore/ad7e4e42a0b33a6fa04bdf0b58a327cb1e4d894df42898706d25589b9df9d7b6_sk',
   identityLabel: 'User1@org1.example.com'
 }
 
